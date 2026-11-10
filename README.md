@@ -13,8 +13,6 @@ with a port to the **STM32F407 Discovery (ARM Cortex-M4)** in progress.
 The firmware is split into a **hardware-independent core** (`common/`) shared by every board,
 and a thin **board-specific port layer** (`boards/<board>/`) written against the STM32 HAL.
 
-> Rebuilt in 2026 after the original source files were lost.
-
 ## System architecture
 
 ```mermaid
